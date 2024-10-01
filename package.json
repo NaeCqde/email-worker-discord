@@ -1,0 +1,26 @@
+{
+    "name": "email-worker-discord",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "deploy": "wrangler deploy",
+        "dev": "wrangler dev",
+        "start": "wrangler dev",
+        "cf-typegen": "wrangler types"
+    },
+    "dependencies": {
+        "@types/html-to-text": "^9.0.4",
+        "chanfana": "^2.0.2",
+        "hono": "^4.4.7",
+        "html-to-text": "^9.0.5",
+        "mimetext": "^3.0.24",
+        "postal-mime": "^2.3.2",
+        "zod": "^3.23.8"
+    },
+    "devDependencies": {
+        "@cloudflare/workers-types": "^4.20240919.0",
+        "@types/node": "20.8.3",
+        "@types/service-worker-mock": "^2.0.1",
+        "wrangler": "^3.60.3"
+    }
+}
